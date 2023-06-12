@@ -1,5 +1,5 @@
 let currentDate = new Date();
-//adding one to the currentMonth var because months range from 0-11
+//adding one to the currentMonth variable because months range from 0-11
 let currentMonth = currentDate.getMonth() + 1;
 let currentYear = currentDate.getFullYear();
 let currentDay = currentDate.getDate();
