@@ -19,7 +19,7 @@ if (dayValue.value === "" || monthValue.value === "" || yearValue.value === "") 
   document.querySelector(".day-error").textContent = "Must be a valid day.";
   document.getElementById("day-label").style.color = "#E0115F";
 } else if (monthValue.value >= 13) {  
-  document.querySelector(".month-error").textContent = "Must be a valid      month.";
+  document.querySelector(".month-error").textContent = "Must be a valid month.";
    document.getElementById("month-label").style.color = "#E0115F";
 } else if (yearValue.value >= currentYear + 1) {
   document.querySelector(".year-error").textContent = "Must be a valid year.";
